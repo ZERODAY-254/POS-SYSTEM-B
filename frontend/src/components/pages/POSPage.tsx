@@ -1,0 +1,1 @@
+export { POSPage } from './POSPageEnhanced';

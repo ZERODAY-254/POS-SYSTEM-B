@@ -17,9 +17,9 @@ Start-Process -FilePath "powershell.exe" -ArgumentList @(
     "-NoExit",
     "-ExecutionPolicy", "Bypass",
     "-Command",
-    "cd '$frontend'; npm.cmd start"
+    "cd '$frontend'; npm run dev"
 ) -WorkingDirectory $frontend
 
 Write-Host ""
 Write-Host "Backend:  http://127.0.0.1:8000" -ForegroundColor Green
-Write-Host "Frontend: http://127.0.0.1:5174" -ForegroundColor Green
+Write-Host "Frontend: http://127.0.0.1:5173" -ForegroundColor Green
